@@ -1,0 +1,127 @@
+header {
+    background-color: #E1EDE6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 165px;
+}
+.header2 {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+.one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #598D66;
+    
+    
+}
+
+
+
+.one p {
+    font-size: 20px;
+    
+    line-height: 100%;
+    color: #598D66;
+}
+.two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    width: 100%;
+    
+}
+.two a {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    color: #2C2D35;
+    text-decoration: none;
+   
+}
+
+.block {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+.text h1 {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 110.00000000000001%;
+    color: #2C2D35;
+    margin-bottom: 20px;
+}
+.text p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #86928B;
+    margin-bottom: 60px;
+}
+.product {
+    border: 1px solid#598D66;
+    padding: 21px 60px;
+    color: #598D66;
+    font-size: 20px;
+    line-height: 100%;
+    font-weight: 500;
+}
+@media (max-width: 1024px) {
+    .product {
+    border: 5px solid#8d598a;
+    padding: 21px 60px;
+    color: #3a9cda;
+    font-size: 10px;
+    line-height: 100%;
+    font-weight: 500;
+    } 
+}
+@media (max-width: 690px) {
+    .one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #62598d;
+    background-color: lightcoral;
+    }
+    .block {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: darkcyan;
+
+}
+    
+}
+@media (max-width: 510px) {
+    .block {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: #62598d;
+
+}
+
+}
+@media (max-width: 320px) {
+    .block {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8d8a59;
+
+}
+
+}

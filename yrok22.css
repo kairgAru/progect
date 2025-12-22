@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+
+}
+
+.new-cont {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 730px;
+    margin-top: 215px;
+
+}
+.cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    width: 730px;
+    margin-top: 85px;
+}
+
+.card2 {
+    padding: 20px 20px 30px 20px;
+    background-color: #E1EDE6;
+    width: fit-content;
+    
+    
+
+}
+.author {
+    color: #86928B;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+.name {
+    color: #2C2D35;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 10px;
+
+}
+.mater {
+    color: #2C2D35;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 30px;
+
+}
+.price {
+    color: #598D66;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 10px;
+
+}
+.button2 {
+    border: 1px solid #598D66;
+    background-color: #E1EDE6;
+    width: 250px;
+    height: 50px;
+    color: #598D66;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+
+
+
+}

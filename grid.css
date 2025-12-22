@@ -128,20 +128,20 @@ body {
 }
 .second {
     background-color: #FFFFFF;
-    width: 1920px;
-    height: 1926px;
+    width: fit-content;
+    
     margin: 0 auto;  
 
 }
 .box {
     display: grid;
-    grid-template-columns: 380px 380px 380px ;
-    grid-template-rows: 582px 582px 582px;
-    margin: 140px 370px 0px 370px;
-    width: 1180px;
-    height: 1786px;
-    margin-top: 80px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
+    
+    
 }
+
 
 .x1 {
     width: 380px;
@@ -149,6 +149,7 @@ body {
     background-color: white;
     border-radius: 20px;
     border: 1px solid #F2F6FA;
+    margin-bottom: 20px;
     
    
 

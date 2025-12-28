@@ -25,7 +25,7 @@ h2::after {
    content: " ←";
    color: #c066c8;
 }
-.box {
+.product-box {
       position: relative;      /* нужно для ::before и ::after */
       width: 200px;
       height: 40px;
@@ -33,7 +33,7 @@ h2::after {
       background-color: #d1dbae;
     }
 
-    .box::before {
+    .product-box::before {
       content: "";
       position: absolute;
       top: 0;
@@ -44,7 +44,7 @@ h2::after {
     }
 
     
-    .box::after {
+    .product-box::after {
       content: "";
       position: absolute;
       bottom: 0;

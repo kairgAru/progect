@@ -15,27 +15,27 @@ body {
   font-weight: bold;
 }
 
-.rotate {
+.box-rotate {
   transform: rotate(25deg);
 }
-.scale {
+.box-scale {
   transform: scale(1.3);
 }
-.translate {
+.box-translate {
   transform: translate(30px, 20px);
 }
-.skew {
+.box-skew {
   transform: skew(20deg, 10deg);
 }
-.anim {
+.box-anim {
     transition: transform 0.7s, background-color 0.7s;
 }
-.anim:hover {
+.box-anim:hover {
   background-color: #fcf34c;
   transform: scale(1.2) rotate(15deg);
 }
 
-.new {
+.box-new {
    animation: spinScale 2s infinite alternate;
   
 }

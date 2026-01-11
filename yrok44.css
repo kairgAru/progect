@@ -1,0 +1,30 @@
+.bg-body-tertiary {
+    background-color: #F5F7FA;
+    padding: 22px 120px;
+
+}
+.dropdown-menu {
+    color: #18191F;
+}
+.btn-outline-success {
+    border: none;
+}
+.position-relative {
+    gap: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 96px 144px;
+}
+.card-title {
+    margin-top: 16px;
+    font-size: 64px;
+    color: #000000;
+
+
+}
+.card-text {
+    margin-top: 32px;
+    color: #717171;
+    font-size: 16px;
+}
